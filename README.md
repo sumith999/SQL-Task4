@@ -1,4 +1,5 @@
  SQL Task 4 – Aggregations, Grouping & Analysis
+ 
 This task is part of the **Library Management System** project.
 It focuses on aggregate functions (SUM, AVG, MIN, MAX, COUNT) and data grouping using GROUP BY and HAVING.
 
