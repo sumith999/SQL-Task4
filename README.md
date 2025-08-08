@@ -34,14 +34,14 @@ FROM Books
 GROUP BY Publisher;
 
 5️⃣ Publishers with More Than One Book
-sql
+ sql
 SELECT Publisher, COUNT(*) AS BooksCount
 FROM Books
 GROUP BY Publisher
 HAVING COUNT(*) > 1;
 
 6️⃣ Total Books Issued per Member
-sql
+ sql
 SELECT MemberID, COUNT(*) AS BooksIssued
 FROM IssuedBooks
 GROUP BY MemberID;
@@ -61,8 +61,6 @@ How to Run the SQL File
  Notes
 
 - Make sure the MySQL service is running before executing the script
-- You can create the ER diagram using:  
-  `Database > Reverse Engineer` in MySQL Workbench
 
 ---
 
